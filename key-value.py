@@ -5,7 +5,7 @@ copiedStr = pyperclip.paste()
 copiedStr = copiedStr.split(':')
 copiedStr = "\': \'".join(copiedStr)
 copiedStr = copiedStr.split('\n')
-copiedStr = "\'\n\'".join(copiedStr)
+copiedStr = "\',\n\'".join(copiedStr)
 copiedStr = "\'" + copiedStr + "\'"
 
 print(copiedStr)
